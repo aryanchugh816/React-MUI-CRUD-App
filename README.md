@@ -36,8 +36,25 @@
   - This component will be similar to `2. Create Model` component but once user updates model, this should update the `updated_at` field and not touch the `created_at` field.
   - Once user updates data, it should be reflected in the mock db
 
+## Data Structure
+- **id** : Auto update int
+- **name** : string (max length : 75)
+- **created_at** : epoch timestamp
+- **updated_at** : epoch timestamp
+- **status** : will consist of following three string options
+  - unverified
+  - verified
+  - multiple runs
+- **completion_rate** : Int in range of 0-100, will be dependent on `status` in following manner (all inclusive ranges)
+  - unverified : 0 - 40
+  - verified : 41 - 70
+  - multiple runs : 71 - 100
+  
+---
+
 ## Use Material UI grid and spacing system and also for every component like cards, navbar, buttons, modal, inputs, etc.
 
 ## Use newest version of Material UI with `sx` component
+
 
 ---
