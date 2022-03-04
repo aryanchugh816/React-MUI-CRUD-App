@@ -1,0 +1,36 @@
+{
+  "models": [
+    {
+      "id": 1,
+      "name": "NLP 1",
+      "created_at": 1580523120,
+      "updated_at": 1581543960,
+      "status": "unverified",
+      "completion_rate": 40
+    },
+    {
+      "id": 2,
+      "name": "Image Caption",
+      "created_at": 1589319960,
+      "updated_at": 1589428800,
+      "status": "verified",
+      "completion_rate": 55
+    },
+    {
+      "id": 3,
+      "name": "Text HMM",
+      "created_at": 1566608400,
+      "updated_at": 1570424400,
+      "status": "multiple runs",
+      "completion_rate": 90
+    },
+    {
+      "id": 4,
+      "name": "Chat Bot",
+      "created_at": 1610274960,
+      "updated_at": 1610285400,
+      "status": "verified",
+      "completion_rate": 60
+    }
+  ]
+}
